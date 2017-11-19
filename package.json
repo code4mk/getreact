@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/code4mk/reactpack.git"
+    "url": "git+https://github.com/code4mk/getreact.git"
   },
   "keywords": [
     "webpack",
@@ -21,7 +21,7 @@
   "author": "code4mk <https://twitter.com/code4mk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/code4mk/reactpack/issues"
+    "url": "https://github.com/code4mk/getreact/issues"
   },
   "homepage": "https://code4mk.org",
   "bin": {
