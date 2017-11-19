@@ -8,7 +8,7 @@ Easy CLI tool for Mac/Windows/Linux. Just `npm i -g getreact` and run `getreact 
 Install the ReactQL command-line tool on Mac/Windows/Linux:
 
 ```bash
-npm i -g reactpack
+npm i -g getreact
 ```
 
 Then run `getreact` for help, or `getreact new` to start a new project.
