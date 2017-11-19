@@ -1,5 +1,5 @@
 {
-  "name": "reactpack",
+  "name": "getreact",
   "version": "1.0.0",
   "description": "Painless webpack react",
   "main": "cli/index.js",

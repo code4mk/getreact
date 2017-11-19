@@ -22,13 +22,13 @@ ${banner}
 Usage:
 
 Start a new React-Pack project
-${chalk.white.bgRed('reactpack new [options]')}
+${chalk.white.bgRed('getreact new [options]')}
 
 Show help / all options
-${chalk.white.bgRed('reactpack help')}
+${chalk.white.bgRed('getreact help')}
 
 Show the current version / check for latest version:
-${chalk.white.bgRed('reactpack version')}
+${chalk.white.bgRed('getreact version')}
 
 
 ================================================================================

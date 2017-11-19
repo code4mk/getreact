@@ -13,6 +13,6 @@ const package = require('../package.json');
 
 module.exports = `
 
-  <React-Pack/> v${package.version}
+  <getreact/> v${package.version}
 
 `.trim();

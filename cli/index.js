@@ -381,7 +381,7 @@ const args = yargs
   .command({
     command: 'upgrade',
     aliases: ['u'],
-    desc: `Upgrade existing React-Pack project to <react-pack/> v${kit.version}`,
+    desc: `Upgrade existing getreact project to <getreact/> v${kit.version}`,
     handler() {
       const cwd = process.cwd();
       let currentVersion;
@@ -397,7 +397,7 @@ const args = yargs
 
         // Is the contents of `.reactql` a valid semver?
         if (!semver.valid(currentVersion)) {
-          throw new Error('Invalid React-Pack version inside `.reactql`');
+          throw new Error('Invalid getreact version inside `.reactql`');
         }
 
       } catch (e) {
@@ -414,9 +414,9 @@ const args = yargs
       }
 
       // Confirm that the user is happy to overwrite existing files
-      let warning = `${chalk.red.underline('Warning:')} Your React-Pack project will be `;
+      let warning = `${chalk.red.underline('Warning:')} Your getreact project will be `;
       warning += `upgraded from ${chalk.dim(currentVersion)} -> ${chalk.green(kit.version)}\n`;
-      warning += `By proceeding, existing React-Pack files/dirs will be overwritten (except ${chalk.bgYellow('src/*')})`;
+      warning += `By proceeding, existing getreact files/dirs will be overwritten (except ${chalk.bgYellow('src/*')})`;
 
       console.log(
         boxen(warning, {
@@ -428,7 +428,7 @@ const args = yargs
         {
           name: 'confirm',
           type: 'confirm',
-          message: `Upgrade to React-Pack <react-pack/> v${kit.version}?`,
+          message: `Upgrade to getreact <getreact/> v${kit.version}?`,
         },
       ];
 
@@ -511,7 +511,7 @@ const args = yargs
   .command({
     command: 'version',
     aliases: ['v'],
-    desc: 'Show React-pack version',
+    desc: 'Show getreact version',
     handler() {
       console.log(pkg.version);
       showNotice();
@@ -547,13 +547,13 @@ updateNotifier({
   callback(e, update) {
     // If there's an error checking for updates, direct the user to NPM
     if (e) {
-      notice = chalk.red(`Error checking for React-Pack updates. Try ${chalk.bold.underline('https://www.npmjs.com/package/reactpack')}`);
+      notice = chalk.red(`Error checking for getreact updates. Try ${chalk.bold.underline('https://www.npmjs.com/package/reactpack')}`);
 
     } else if (update && semver.lt(pkg.version, update.latest)) {
       // There's an update available...
-      notice = `${chalk.bold.magenta('React-Pack')} CLI update available: `;
+      notice = `${chalk.bold.magenta('getreact')} CLI update available: `;
       notice += `${chalk.dim(pkg.version)} -> ${chalk.bold.green(update.latest)}\n\n`;
-      notice += `Run ${chalk.cyan('npm i -g reactpack')} to upgrade.`;
+      notice += `Run ${chalk.cyan('npm i -g getreact')} to upgrade.`;
 
       // Wrap `notice` in a box to make it obvious
       notice = boxen(notice, {

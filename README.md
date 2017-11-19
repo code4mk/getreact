@@ -1,6 +1,6 @@
 # Painless webpack react cli
 
-Easy CLI tool for Mac/Windows/Linux. Just `npm i -g reactpack` and run `reactpack new`
+Easy CLI tool for Mac/Windows/Linux. Just `npm i -g getreact` and run `getreact new`
 
 
 # Quick start
@@ -11,7 +11,7 @@ Install the ReactQL command-line tool on Mac/Windows/Linux:
 npm i -g reactpack
 ```
 
-Then run `reactpack` for help, or `reactpack new` to start a new project.
+Then run `getreact` for help, or `getreact new` to start a new project.
 
 Main project [webpack-react](https://github.com/code4mk/webpack-react)
 
