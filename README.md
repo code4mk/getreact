@@ -1,11 +1,13 @@
+<p align="center" ><img src="images/getreact.png"></p>
+
 # Painless webpack react cli
 
-Easy CLI tool for Mac/Windows/Linux. Just `npm i -g getreact` and run `getreact new`
+ CLI tool for Mac/Windows/Linux. Just `npm i -g getreact` and run `getreact new`
 
 
 # Quick start
 
-Install the ReactQL command-line tool on Mac/Windows/Linux:
+Install the getreact command-line tool on Mac/Windows/Linux:
 
 ```bash
 npm i -g getreact

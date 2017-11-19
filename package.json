@@ -1,6 +1,6 @@
 {
   "name": "getreact",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "Painless webpack react",
   "main": "cli/index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "webpack",
     "react",
     "react.js",
-    "cli"
+    "cli",
+    "react-cli"
   ],
   "author": "code4mk <https://twitter.com/code4mk>",
   "license": "MIT",
@@ -25,7 +26,7 @@
   },
   "homepage": "https://code4mk.org",
   "bin": {
-    "reactql": "bin/getreact"
+    "getreact": "bin/getreact"
   },
   "dependencies": {
     "boxen": "^1.2.1",
