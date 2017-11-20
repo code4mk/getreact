@@ -509,8 +509,8 @@ const args = yargs
     },
   })
   .command({
-    command: '--version',
-    aliases: ['-v'],
+    command: 'version',
+    aliases: ['v'],
     desc: 'Show getreact version',
     handler() {
       console.log(pkg.version);
