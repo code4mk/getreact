@@ -368,7 +368,7 @@ Spawning new project...
 
 // Check that the installed Node version meets requirements: 7.6+
 if (!semver.gte(process.version, '7.6.0')) {
-  let warning = `${chalk.bold('Warning')}: You need Node.js 7.6 or above for ReactQL to work properly.\n`;
+  let warning = `${chalk.bold('Warning')}: You need Node.js 7.6 or above for getreact to work properly.\n`;
   warning += `You have ${process.version}. Upgrade @ ${chalk.cyan.underline('https://nodejs.org')}`;
 
   console.log(boxen(chalk.red(warning), { padding: 1 }));
@@ -509,8 +509,8 @@ const args = yargs
     },
   })
   .command({
-    command: 'version',
-    aliases: ['v'],
+    command: '--version',
+    aliases: ['-v'],
     desc: 'Show getreact version',
     handler() {
       console.log(pkg.version);
