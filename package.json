@@ -1,6 +1,6 @@
 {
   "name": "getreact",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Painless webpack react",
   "main": "cli/index.js",
   "scripts": {
