@@ -528,7 +528,7 @@ const args = yargs
     },
     path: {
       alias: 'p',
-      describe: 'Path to install the starter kit',
+      describe: 'Path to install the <getreact/>',
     },
     license: {
       alias: 'l',
