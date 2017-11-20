@@ -1,7 +1,7 @@
-/*
-ReactQL starter kit -- https://reactql.org
-Authored by Lee Benson <lee@leebenson.com>
-*/
+/***************************************************
+  getreact cli -- https://code4mk.org
+  Authored by code4mk <https://twitter.com/code4mk>
+****************************************************/
 
 // ----------------------
 // IMPORTS
