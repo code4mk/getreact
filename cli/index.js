@@ -293,10 +293,10 @@ function startInstallation(installationPath, isUpgrade = false) {
               );
             }
 
-            // Add/edit `.reactql` file containing the current version, to enable
+            // Add/edit `.getreact` file containing the current version, to enable
             // later upgrades
             fse.writeFileSync(
-              path.resolve(installationPath, '.reactql'),
+              path.resolve(installationPath, '.getreact'),
               kit.version
             );
 
